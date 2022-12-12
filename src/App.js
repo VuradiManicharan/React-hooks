@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+// import React from "react"; 
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import LearnUseState1 from "./LearnUseState.js/LeanUseState1";
+import LearnUseState2 from "./LearnUseState.js/LearnUseState2";
+import LearnUseState3 from "./LearnUseState.js/LearnUseState3";
+
+import Portfolio from "./LearnProps/portfolio";
+
+import LearnUseEffect1 from "./LearnUseEffect/LearnUseEffect";
+
+
+const App = () => {
+    return(
+        <div>
+            <LearnUseState3 />
+        </div>
+    )
 }
+
 
 export default App;
